@@ -12,7 +12,7 @@ import numpy as np
 
 #1a
 I = cv2.imread("K04.jpg")
-cv2.imshow('kênh G',I[0;2;1]) #OpenCV: BGR:0->B,1->G,2->R
+
 #1b
 #đổi BGR sang gray
 Ig = cv2.cvt(I,cv2.COLOR_BGR2GRAY)
